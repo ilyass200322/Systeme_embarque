@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.MoviesApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/background_dark</item>
+        <item name="android:windowBackground">@color/background_dark</item>
+
+        <item name="chipStyle">@style/ModernChipStyle</item>
+    </style>
+
+    <style name="ModernChipStyle" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="chipBackgroundColor">@color/chip_background_selector</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="chipCornerRadius">12dp</item>
+        <item name="chipStrokeWidth">0dp</item>
+        <item name="rippleColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="RoundedCornerImage">
+        <item name="cornerSize">16dp</item>
+    </style>
+</resources>

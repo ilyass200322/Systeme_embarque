@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Moviez</string>
+    <string name="discover">Feed</string>
+    <string name="discover_subtitle">Binge your favorite content</string>
+    <string name="search_hint">Find something green...</string>
+
+    <string name="category_all">Everything</string>
+    <string name="category_favorites">Vault</string>
+    <string name="category_action">Action</string>
+    <string name="category_comedy">Comedy</string>
+    <string name="category_drama">Drama</string>
+    <string name="category_romance">Romance</string>
+    <string name="category_horror">Horror</string>
+
+    <string name="login_welcome">Welcome to Moviez</string>
+    <string name="login_button">Enter</string>
+    <string name="no_account_signup">New here? Create account</string>
+
+    <string name="register_title">Join Moviez</string>
+    <string name="register_subtitle">Your cinematic portal awaits</string>
+    <string name="register_button">Initialize</string>
+    <string name="already_have_account">Already a member? Sign in</string>
+
+    <string name="storyline_label">The Plot</string>
+    <string name="watch_trailer">Play Trailer</string>
+    <string name="cinemas_nearby">Nearby Theaters</string>
+    <string name="trailer_not_available">No trailer found</string>
+    <string name="network_error">Connection failed</string>
+</resources>
